@@ -51,5 +51,5 @@ resource "aws_subnet" "private" {
   }
 }
 
-# Create NAT gateway tp enable private subnet to interact with internet
+# Create NAT gateway to enable private subnet to interact with internet
 # make sure NAT gateway is not free
