@@ -1,3 +1,5 @@
+# This Repo is strcitly for AWS
+
 # Introduction to Terraform and HCL
 
 HashiCorp Configuration Language (HCL) is the language used to write Terraform configurations. Its syntax is designed to be human-readable and is composed of three main parts:
@@ -32,9 +34,9 @@ resource "aws_instance" "webserver" {
 }
 ```
 ---
-## Providers
+# Providers
 
-A provider is a plugin that allows Terraform to interact with an API (e.g., AWS, GCP, Azure). To use a provider, you first declare it in your configuration and then run `terraform init`. This command downloads the necessary provider plugins into your working directory.
+Provider is a plugin that allows Terraform to interact with an API (e.g., AWS, GCP, Azure). To use a provider, you first declare it in your configuration and then run `terraform init`. This command downloads the necessary provider plugins into your working directory.
 ---
 ## Core Terraform Commands
 
